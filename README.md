@@ -13,5 +13,5 @@
 ##**노드레드 구동**
 
 <center>
-     <img src="[C:/nodes.png](https://user-images.githubusercontent.com/105187744/174597907-ea7428c9-98d4-4d52-bf36-5329722baba2.png)" alt="노드레드 구성도">
+     ![node-red 구성도](https://user-images.githubusercontent.com/105187744/174597907-ea7428c9-98d4-4d52-bf36-5329722baba2.png)
  </center>
