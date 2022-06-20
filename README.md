@@ -127,9 +127,9 @@ mqttClient_accel.endMessage();
 ---
 ### **🎞5. 구동 영상**
 
-- 동영상(움짤) 넣기!
+- 동영상(움짤) 넣기!   
 
-Link : [YOUTUBE 객체 상태 검출 구동영상](https://www.youtube.com/watch?v=cbuZfY2S2UQ, "youtube link")
-Link : [YOUTUBE 손모양 검출 구동영상](https://www.youtube.com/watch?v=cbuZfY2S2UQ, "youtube link")
+Link : [YOUTUBE 객체 상태 검출 구동영상](https://www.youtube.com/watch?v=cbuZfY2S2UQ, "youtube link")   
+Link : [YOUTUBE 손모양 검출 구동영상](https://www.youtube.com/watch?v=cbuZfY2S2UQ, "youtube link")   
 
 ---
