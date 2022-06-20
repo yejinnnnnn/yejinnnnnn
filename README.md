@@ -94,43 +94,40 @@ mqttClient_accel.endMessage();
 ---
 ### **3. 노드레드 구성**
 
+ - 노드레드 구성도
+   
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174597907-ea7428c9-98d4-4d52-bf36-5329722baba2.png">
 </center>
-
+   
 ---
 ### **4. 구동 화면**
 
- - 정지상태 구동 화면
+ > 정지상태 구동 화면
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605816-80b49fbe-5773-4d0e-bfbb-0700b7f9cb46.PNG">
-</center>
-
-
- 
-  - 걷는상태 구동 화면
+</center>   
+     
+ > 걷는상태 구동 화면
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605684-6ebd7a92-3bc2-4bac-9426-769167f786c5.PNG">
-</center>
-
-
-
- - 뛰는상태 구동 화면
+</center>   
+   
+ > 뛰는상태 구동 화면
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605860-3158993f-6286-4d8e-80fb-9345ddd12895.PNG">
-</center>
-
-
-
- - 손모양 검출 구동 화면
+</center>   
+    
+ > 손모양 검출 구동 화면
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605853-3a81fc7b-267a-45ef-8fd8-e3b471692e06.PNG">
-</center>
-
-
-
-
+</center>   
+   
 ---
 ### **🎞5. 구동 영상**
+
+-
+
+Link : [YOUTUBE 구동영상](https://www.youtube.com/watch?v=cbuZfY2S2UQ, "youtube link")
 
 ---
