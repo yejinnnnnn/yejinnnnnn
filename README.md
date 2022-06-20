@@ -12,4 +12,4 @@
 
 ##**노드레드 구동**
 
-<img src="노드레드.png">
+<img src="nodes.png">
