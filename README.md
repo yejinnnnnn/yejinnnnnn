@@ -5,9 +5,10 @@
 
 ### **👪팀원**  
 
-- 김민수
-- 이소현
-- 김예진
+ - 김민수
+ - 이소현
+ - 김예진
+---
 ### **✔개발 환경**  
 - Jetson Nano Developer Kit(jetpack 4.5 ver)
 - USB Camera
@@ -94,7 +95,7 @@ mqttClient_accel.endMessage();
 ---
 ### **3. 노드레드 구성**
 
- - 노드레드 구성도
+ > 노드레드 구성도
    
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174597907-ea7428c9-98d4-4d52-bf36-5329722baba2.png">
