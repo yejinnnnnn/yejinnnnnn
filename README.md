@@ -126,6 +126,17 @@ Link : [NODE-RED UI](http://211.206.178.184:1880/ui/#!/0?socketid=9dEfMAmUUc7OH-
      <img src="https://user-images.githubusercontent.com/105187744/174605853-3a81fc7b-267a-45ef-8fd8-e3b471692e06.PNG">
 </center>   
    
+> 아두이노 구동 화면
+<center>
+     <img src="https://user-images.githubusercontent.com/105187744/174632687-c2a21e6c-4590-4222-9b08-38e493f521a8.jpg">
+</center>   
+
+
+ > 카메라 구동 화면
+<center>
+     <img src="https://user-images.githubusercontent.com/105187744/174632545-3605ca4d-aa54-48ff-912f-3837c090a8d6.jpg">
+</center>  
+
 ---
 ### **🎞5. 구동 영상**
 
