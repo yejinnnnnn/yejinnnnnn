@@ -12,4 +12,6 @@
 
 ##**노드레드 구동**
 
-<img src="nodes.png">
+<center>
+     <img src="C:/nodes.png" alt="노드레드 구성도">
+ </center>
