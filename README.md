@@ -101,6 +101,7 @@ mqttClient_accel.endMessage();
      <img src="https://user-images.githubusercontent.com/105187744/174597907-ea7428c9-98d4-4d52-bf36-5329722baba2.png">
 </center>
    
+Link : [NODE-RED UI](http://211.206.178.184:1880/ui/#!/0?socketid=9dEfMAmUUc7OH-74AAAN, "node-red ui link")   
 ---
 ### **4. 구동 화면**
 
