@@ -1,6 +1,6 @@
  ## 2022-1학기 임베디드시스템응용 최종 과제⚡
 ---------------------------------------------------------------------------------------------------------------------
-
+Node-Red에 여러 데이터 값 보내기
 
 ### **👪팀원**  
 
@@ -17,6 +17,7 @@
 
 ---
 ### **2. 📃코드 설명**
+- MQTT를 이용해 아두이노 rp2040에서 얻은 값을 node-red로 전달
 ```
 WiFiClient wifiClient_temp;
 MqttClient mqttClient_temp(wifiClient_temp);
@@ -30,8 +31,8 @@ WiFiClient wifiClient_zpoint;
 MqttClient mqttClient_zpoint(wifiClient_zpoint);
 ```
 
-- MQTT를 이용해 아두이노 rp2040에서 얻은 값을 node-red로 전달
 
+- 주소를 저장해 MQTT로 전달할 topic 저장
 ```
 const char broker[] = "192.168.35.152";
 int port = 1883;
@@ -42,15 +43,14 @@ const char topic_ypoint[]  = "ypoint";
 const char topic_zpoint[]  = "zpoint";
 ```
 
-- 주소를 저장해 MQTT로 전달할 topic 저장
-
+- 아두이노 rp2040 센서를 이용해 값 받아오기
 ```
 IMU.readTemperature(temperature_deg);
 IMU.readAcceleration(x, y, z);
 ```
 
-- 아두이노 rp2040 센서를 이용해 값 받아오기
 
+- MQTT를 이용해 node-red로 온도, xyz좌표 topic 전달
 ```
 mqttClient_temp.beginMessage(topic_temp);
 mqttClient_temp.print(temperature_deg);
@@ -73,8 +73,8 @@ mqttClient_zpoint.println("좌표 ");
 mqttClient_zpoint.endMessage();
 ```
 
-- MQTT를 이용해 node-red로 온도, xyz좌표 topic 전달
 
+- MQTT를 이용해 좌표값에 따른 운동 상태 node-red로 전달
 ```
 mqttClient_accel.beginMessage(topic_accel);
 if((x>-0.02 &&x<0.02) || (y>-0.03&&y<0.03) || (z>0.98 && z<1.02)){
@@ -89,7 +89,7 @@ else{
 mqttClient_accel.endMessage();
 ```
 
-- MQTT를 이용해 좌표값에 따른 운동 상태 node-red로 전달
+
 ---
 ### **3. 노드레드 구성**
 
@@ -100,33 +100,33 @@ mqttClient_accel.endMessage();
 ---
 ### **4. 구동 화면**
 
-
+ - 정지상태 구동 화면
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605816-80b49fbe-5773-4d0e-bfbb-0700b7f9cb46.PNG">
 </center>
 
- - 정지상태 구동 화면
+
  
- 
+  - 걷는상태 구동 화면
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605684-6ebd7a92-3bc2-4bac-9426-769167f786c5.PNG">
 </center>
 
- - 걷는상태 구동 화면
 
 
+ - 뛰는상태 구동 화면
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605860-3158993f-6286-4d8e-80fb-9345ddd12895.PNG">
 </center>
 
- - 뛰는상태 구동 화면
 
 
+ - 손모양 검출 구동 화면
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605853-3a81fc7b-267a-45ef-8fd8-e3b471692e06.PNG">
 </center>
 
- - 손모양 검출 구동 화면
+
 
 
 ---
