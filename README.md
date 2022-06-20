@@ -103,17 +103,20 @@ mqttClient_accel.endMessage();
 
  - 정지상태 구동 화면
  
+ 
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605684-6ebd7a92-3bc2-4bac-9426-769167f786c5.PNG">
 </center>
 
  - 걷는상태 구동 화면
 
+
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605860-3158993f-6286-4d8e-80fb-9345ddd12895.PNG">
 </center>
 
  - 뛰는상태 구동 화면
+
 
 <center>
      <img src="https://user-images.githubusercontent.com/105187744/174605853-3a81fc7b-267a-45ef-8fd8-e3b471692e06.PNG">
