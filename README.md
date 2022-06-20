@@ -1,23 +1,10 @@
-### 2022-1학기 임베디드시스템응용 최종 과제⚡
+ 2022-1학기 임베디드시스템응용 최종 과제⚡
 ---------------------------------------------------------------------------------------------------------------------
 
 
-- 👪**팀원**  
-    김민수  
-    김예진  
-    이소현  
-<!--김민수
+**- 👪팀원**  
 
-**yejinnnnnn/yejinnnnnn** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-https://capsule-render.vercel.app/api?
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+        김민수  
+        김예진  
+        이소현  
