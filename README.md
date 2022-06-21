@@ -16,6 +16,9 @@
 - IDE : Arduino, Visual Code, Thonny
 ---
 ### **1. 📃블럭도 설명**
+<center>
+     <img src="https://user-images.githubusercontent.com/107833113/174710577-5b7bce31-ea7e-4969-aea3-dcaf322b8637.JPG">
+</center>
 
 ---
 ### **2. 📃코드 설명**
