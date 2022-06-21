@@ -140,7 +140,7 @@ Link : [NODE-RED UI](http://211.206.178.184:1880/ui/#!/0?socketid=9dEfMAmUUc7OH-
 ---
 ### **🎞5. 구동 영상**
 
-- 동영상(움짤) 넣기!   
+
 
 Link : [YOUTUBE 객체 상태 검출 구동영상](https://youtu.be/-M-ynP_fBdc, "youtube link")   
 
